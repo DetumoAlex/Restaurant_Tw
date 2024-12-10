@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar</title>
+    <title>Restaurant</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,7 +15,8 @@
               colors: {
                 textcolor: '#101a24',
                 buttonbg: '#ea6d27',
-                pcolor: '#5c8574'
+                pcolor: '#5c8574',
+                background:'#F8FAFC',
 
               }
             }
@@ -24,7 +25,7 @@
     </script>
 </head>
 <body>
-    <nav class="w-full bg-white  md:py-4">
+    <nav class="w-full bg-background  md:py-4">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center">
                 <!-- Logo -->
@@ -192,7 +193,7 @@
      </main> -->
     
      <!-- sServices section -->
-      <section class="max-h-full relative bg-slate-200 ">
+      <section class="max-h-full relative bg-slate-100 ">
         <div class="flex items-center justify-center flex-col py-10">
             <h1 class="capitalize text-[50px]">Our special dishes</h1>
             <p class="w-[350px] text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
@@ -210,7 +211,7 @@
 
          <div class="flex items-center justify-center flex-col m-4 py-4 mt-20">
             <img src="/images/Group 15.png" alt="" class="absolute top-[200px] ">
-            <div class="bg-white py-32 border w-auto h-[300px] flex items-center justify-center flex-col rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md">
+            <div class="py-32 border-2 border-white border-solid w-auto h-[300px] flex items-center justify-center flex-col rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md">
              <h1 class="mt-16 font-bold text-slate-900">Fish and Veggie</h1>
              <p class="w-[250px] h-[5px] mt-1 p-6 text-center text-sm text-pcolor">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor </p>
             </div>
@@ -218,7 +219,7 @@
 
           <div class="flex items-center justify-center flex-col m-4 py-4 mt-20">
             <img src="/images/Group 13.png" alt="" class="absolute top-[200px]">
-            <div class="bg-white py-32 border w-auto h-[300px] flex items-center justify-center flex-col rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md">
+            <div class="py-32 border-2 border-white border-solid w-auto h-[300px] flex items-center justify-center flex-col rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md">
              <h1 class="mt-16 font-bold text-slate-900">Tofu Chili</h1>
              <p class="w-[250px] h-[5px] mt-1 p-6 text-center text-sm text-pcolor">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor  </p>
             </div>
@@ -226,7 +227,7 @@
 
           <div class="flex items-center justify-center flex-col m-4 py-4 mt-20">
             <img src="/images/Group 16.png" alt="" class="absolute top-[200px]">
-            <div class="bg-white py-32 border w-auto h-[300px] flex items-center justify-center flex-col rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md">
+            <div class="py-32 border-2 border-solid border-white w-auto h-[300px] flex items-center justify-center flex-col rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md">
              <h1 class="mt-16 font-bold text-slate-900">Egg and Cocumber</h1>
              <p class="w-[250px] h-[5px] mt-1 p-6 text-center text-sm text-pcolor">Lorem ipsum dolor sit , consectetur adipiscing elit, sed do eiusmod tempor  </p>
             </div>
@@ -241,14 +242,14 @@
                 <div>
                     <div class="w-full">
         
-                        <div class="img-container w-full flex items-center justify-center ">
+                        <div class="img-container w-full flex items-center justify-center mx-16">
                             <img src="/images/dish-2 2.png" alt="" class="w-[700px] h-[600px]">
                         </div>
             
                     </div>
                 </div>
 
-                <div class="left flex justify-center items-center flex-col">
+                <div class="left flex justify-center items-center flex-col mr-16">
                     
                     <h1 class="h-[144px] w-[360px] text-[40px] font-bold leading-none">Wecome to Our Restaurant</h1>
         
@@ -261,7 +262,7 @@
                     
                 </div>
         
-                <img src="/images/Group.png" alt="" class="absolute end-[10px] top-[390px] w-[300px] h-[200px] -rotate-[45]">
+                <img src="/images/Group.png" alt="" class="absolute end-[10px] top-[340px]  -rotate-[45]">
         
         
         
@@ -269,8 +270,124 @@
         </div>
 
       </section>
-    
 
+      <!-- Info section -->
+       <!-- <section class="info grid grid-cols-1 sm:grid-cols-2 px-10 max-h-full ">
+       
+            <div class=" py-10">
+                <h1 class="capitalize text-[50px] justify-center items-center">Our Experts Chef</h1>
+                <p class="w-[350px] text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+                <div class="flex flex-wrap py-8 justify-around">
+                    <p class="py-4 w-[250px] text-"><span><i class="fa-regular fa-circle-check bg-orange-500 rounded-full text-white"></i></span> Lorem ipsum dolor sit amet, consectetur </p>
+                    <p class="py-4 w-[250px] text-"><span><i class="fa-regular fa-circle-check bg-orange-500 rounded-full text-white"></i></span> Lorem ipsum dolor sit amet, consectetur </p>
+                    <p class="py-4 w-[250px] text-"><span><i class="fa-regular fa-circle-check bg-orange-500 rounded-full text-white"></i></span> Lorem ipsum dolor sit amet, consectetur </p>
+                    <p class="py-4 w-[250px] text-"><span><i class="fa-regular fa-circle-check bg-orange-500 rounded-full text-white"></i></span> Lorem ipsum dolor sit amet, consectetur </p>
+                    <p class="py-4 w-[250px] text-"><span><i class="fa-regular fa-circle-check bg-orange-500 rounded-full text-white"></i></span> Lorem ipsum dolor sit amet, consectetur </p>
+                    <p class="py-4 w-[250px] text-"><span><i class="fa-regular fa-circle-check bg-orange-500 rounded-full text-white"></i></span> Lorem ipsum dolor sit amet, consectetur </p>
+                </div>
+
+                <div class="sm:me-[75px] flex items-center justify-center w-full">
+                    <button class=" me-[20px] bg-black text-white w-[120px] h-[54px] rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg">Menu</button>
+                    <button class="bg-buttonbg text-white w-[167px] h-[54px] rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg">Book a table</button>
+                </div>
+            </div>
+
+            <div>
+                <img src="/images/chef 1.png" alt="">
+            </div>
+      
+       </section> -->
+    
+       <!-- expects chef -->
+       <section class="grid grid-cols-1 sm:grid-cols-2 px-16 max-h-full relative py-10">
+        <div class="left flex justify-center items-center flex-col  ">
+            <div>
+                <h1 class="h-[55px] w-[360px] text-[40px] font-bold leading-none">Our Expects Chef</h1>
+                <p class="w-[306px] h-[100px] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+             </div>
+
+             <!-- grid items -->
+
+        <div class="container mx-auto p-2 pl-12">
+            <div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 pb-2">
+                <!-- Grid Item 1 -->
+                <div class="flex items-center w-[250px] p-2">
+                <div class="text-orange-500 text-xl">🔸</div>
+                <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <!-- Grid Item 2 -->
+                <div class="flex items-center w-[250px] p-2">
+                    <div class="text-orange-500 text-xl">🔸</div>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <!-- Grid Item 3 -->
+                <div class="flex items-center w-[250px] p-2 ">
+                    <div class="text-orange-500 text-xl">🔸</div>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <!-- Grid Item 4 -->
+                <div class="flex items-center w-[250px] p-2 ">
+                    <div class="text-orange-500 text-xl">🔸</div>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <!-- Grid Item 5 -->
+                <div class="flex items-center w-[250px] p-2">
+                    <div class="text-orange-500 text-xl">🔸</div>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <!-- Grid Item 6 -->
+                <div class="flex items-center w-[250px] p-2 ">
+                    <div class="text-orange-500 text-xl">🔸</div>
+                    <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+            </div>
+            </div>
+        </div>
+            
+            <div class="sm:me-[75px] flex items-center justify-center w-full">
+                <button class=" me-[20px] bg-black text-white w-[120px] h-[54px] rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg">Menu</button>
+                <button class="bg-buttonbg text-white w-[167px] h-[54px] rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md shadow-lg">Book a table</button>
+            </div>
+            
+            
+        </div>
+
+        <div class="right w-full relative">
+
+            <div class="img-container w-full flex items-center justify-center ">
+                <img src="/images/chef 1.png" alt="" class="sm:h-[450px] sm:w-[316px] w-[500px] ">
+            </div>
+        </div>
+    </section>
+
+<!-- testimonials section -->
+    <section class="testimonial bg-background max-h-full relative p-32">
+        <div class="flex items-center justify-center flex-col ">
+            <h1 class="text-[50px] capitalize font-semibold">our happy customers</h1>
+            <p class="w-[362px] h-[5px] ml-12 p-6 text-center text-sm text-pcolor ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+
+        </div>
+
+        <div class="relative">
+
+            <div class="flex items-center justify-center flex-col m-4 py-4 mt-20">
+                <img src="/images/person-1.png" alt="" class="absolute bottom-[270px] rounded-full ">
+                <div class="bg-white py-32 border w-[500px] h-[300px] flex items-center justify-center flex-col rounded-tl-[60px] rounded-br-[60px] rounded-tr-[30px] rounded-bl-[30px]">
+                <p class="w-[360px] h-[100px] m-12 p-6 text-center text-sm text-pcolor">Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper 
+                </p>
+                <h1 class="font-bold text-slate-900">Ama Ampomah</h1>
+                <p class="text-pcolor">CEO & Founder Inc </p>
+                </div>
+
+               
+                
+            </div>
+        </div>
+
+        
+    </section>
 
     <script>
         const menuToggle = document.getElementById('menu-toggle');
